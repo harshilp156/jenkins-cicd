@@ -6,6 +6,22 @@
 
 Created fully automated CI/CD pipeline to automate the process of building, testing, and deploying of Java based application using Jenkins, Maven, Sonarqube, Argo CD and Kubernetes.
 
+1. Jenkins Setup: Used an EC2 t2.large instance running Ubuntu to host Jenkins..
+
+2. SonarQube Integration: SonarQube for code quality analysis.
+
+
+
+3. Docker Integration: Integrated Docker for containerization, streamlining application deployment across environments.
+
+
+
+4. Minikube & ArgoCD Setup: Minikube and ArgoCD to deploy Kubernetes cluster management and GitOps-based deployment.
+
+
+
+5. Pipeline Configuration: Configured Jenkins pipelines to fetch source code from GitHub, build Docker containers, perform SonarQube analysis, and deploy to Kubernetes via ArgoCD.
+
 - Setup one EC2 t2.large ubuntu instance for the jenkins setup.
 
 ![Screenshot (584)](https://github.com/harshilp156/jenkins-cicd/assets/67538347/15528236-2705-4a04-9c64-f44201fee2d7)
@@ -114,6 +130,8 @@ http://<ec2-instance-public-ip>:8080/restart
 ## Minikube setup
 
 Minikube : Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. 
+
+Minikube and ArgoCD to deploy Kubernetes cluster management and GitOps-based deployment.
 
 currently I am using windows laptop so I have set up the windows subsystem for Linux.
 
